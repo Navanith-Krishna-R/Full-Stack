@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        height: 200px;
+        max-width: 200px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      .card .link {
+        width: 100%;
+        background-color: blue;
+        height: 40%;
+        position: relative;
+      }
+      .card span {
+        background-color: red;
+        width: 20%;
+      }
+      .card .link button {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <span>text</span>
+      <div class="link">
+        <button>
+          <img src="../public/icons/eye.svg" alt="" height="15" width="15" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
